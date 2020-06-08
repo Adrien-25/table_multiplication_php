@@ -1,0 +1,175 @@
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url('fonts/Roboto-Light.eot');
+	src: local('☺'), url('fonts/Roboto-Light.woff') format('woff'), url('fonts/Roboto-Light.ttf') format('truetype'), url('fonts/Roboto-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('fonts/Roboto-Regular.eot');
+	src: local('☺'), url('fonts/Roboto-Regular.woff') format('woff'), url('fonts/Roboto-Regular.ttf') format('truetype'), url('fonts/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('fonts/Roboto-Medium.eot');
+	src: local('☺'), url('fonts/Roboto-Medium.woff') format('woff'), url('fonts/Roboto-Medium.ttf') format('truetype'), url('fonts/Roboto-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*Flexbox*/
+.d-flex{
+    display: flex;
+}
+
+/*Police ede caractère*/
+h1{
+    font-size: 'Roboto-Light';
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 96px;
+    letter-spacing: -1.5;
+}
+h2{
+    font-family: 'Roboto-Light';
+    font-size : 60px;
+    letter-spacing: -0.5;
+}
+body{
+    font-family: 'Roboto-Regular';
+    font-size:16px;
+    letter-spacing: 0.5;
+}
+button,input{
+    font-family: 'Robot-Medium';
+    font-size : 14px;
+    letter-spacing: 1.25;
+    text-transform: uppercase;
+}
+
+
+/*Mise en page*/
+body{
+    margin: 0;
+    box-sizing: content-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/*Header*/
+header{
+    background-color: #bc1e1d;  
+}
+.nav_layout{
+    min-height: 150px;
+    display: flex;
+}
+nav{
+    margin: auto 0;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: 	#32CD32;
+}
+form{
+    display: flex;
+    justify-content:center;
+}
+.table_layout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Table_content{
+    padding: 1rem;
+    border: solid 1px black;
+    margin: 1rem;
+}
+
+/*Page 2*/
+.page2_form *{
+    font-size: 2rem;
+}
+
+/*Page 4*/
+.page4 .table_layout{
+    margin-top:3rem;
+}
+.page4 > form *,.page4 > div,.page4>.table_layout>form>input{
+    font-size: 2rem;
+}
+.form_answer{
+    margin-left: 1rem;
+}
+
+.correction{
+    font-size: 3rem;
+}
+
+
+/*Page 5*/
+.page5 {
+    display: flex;
+    flex-direction: column;
+}
+.page5 .form_answer{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-direction: column;
+    border: solid 1px black;
+}
+.page5 .form_answer{
+    margin: 0;
+}
+.page5 .form_answer > div{
+    margin:1rem;
+}
+.page5 .form_answer > div input{
+    font-size: 2rem;
+    font-weight: lighter;
+    max-width: 150px;
+}
+.page5 .form_answer > input{
+    margin-top: 20px;
+}
+.page5 .score_layout{
+    margin: 1rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.page5 .score_layout p{
+    border: solid 1px black;
+    padding: 1.5rem;
+    font-size: 3rem;
+    margin: 0;
+}
+/*Page 6*/
+.page6 .form *{
+    font-size: 2rem;
+}
+
+
+
